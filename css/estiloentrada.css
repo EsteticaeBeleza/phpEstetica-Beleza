@@ -1,0 +1,31 @@
+img{
+    width: 60%;
+}
+
+
+body{
+	font-family: Garamond, Georgia, Times New Roman;
+	padding: 50px;
+	background: #8635d7;
+	position: absolute;
+	}
+		
+h1{ 
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    color: white;
+    font-size:40px;
+    font-family: voor;
+    }
+    
+p{
+    color: white;
+    font-size:25px;
+    font-family: voor;
+    }
+    
+hr{
+    color: white;
+    position: absolute;
+}

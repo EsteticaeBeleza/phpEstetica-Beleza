@@ -1,0 +1,36 @@
+/*tela de fundo geral*/
+body{
+    background: rgb(208,174,235);
+    background: radial-gradient(circle, rgba(208,174,235,1) 10%, rgba(134,53,215,1) 100%);
+		}
+		
+		* {
+		    box-sizing: border-box;
+		}
+		
+/*caixinha*/
+.sidenav {
+  height:400px;
+  width:650px;
+  position: fixed;
+  z-index: 1;
+  top: 175px;
+  left: 28%;
+  border-radius: 10px;
+  background-color: rgba(134,53,215,0.7);
+  border-width: 15px;
+  border-style: solid;
+  border-color: white;
+}
+
+.sidenav a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #d0aeeb;
+  color: white;
+}

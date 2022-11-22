@@ -1,0 +1,153 @@
+
+*{
+    padding: 0;
+    margin:0;
+    color:#ffffffd0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+     background: rgb(161,97,224);
+    background: radial-gradient(circle, rgba(161,97,224,0.258140756302521) 100%, rgba(255,255,255,1) 100%, rgba(134,53,215,0.13489145658263302) 100%);
+
+}
+.container .form img {
+    max-width:500px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.form {
+    background-color: #8635d7;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
+}
+
+.title {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .form .title {
+font-size: 20px;
+margin-right: 150px;
+}
+
+.form h1::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #ffffffe1;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.container .form .input-group .input-box input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #ffffffe1;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
+}
+
+.container .form .input-group .input-box {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.container .form .input-group .input-box input:focus + label,
+.container .form .input-group .input-box input:valid + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #ffffffe1;
+}
+
+.container .form .input-group .input-box input:focus {
+    border-bottom: 2px solid #432166;
+
+}
+
+.container .form .input-group .input-box label {
+    color: #ffffffe1;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.container .form .input-group .input-box input:focus + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #432166;
+}
+
+.container .form button {
+    width: 100%;
+    margin-top: 20px;
+    border-color: white;
+    color: #ffffffe1;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12pt;
+    outline: none;
+    transition: all .5s ease-out;
+}
+
+.container .form button:hover {
+    background-color: #ffffffb0;
+    color: #432166;
+}
+
+.container .form .justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.container .form .cadastro {
+    margin-left: 24%;
+    color: #ffffffe1;
+    font-size: 14pt;
+}
+
+.container .form .cadastro a {
+    font-weight: bold;
+    color:#ffffffe1;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.container .form .cadastro a:hover {
+    color: #432166;
+    
+}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/estilocadastrarcliente.css">
+	<link rel="icon" type="/image/x-icon" href="/imagens/favicon.png">
+	<title>Cadastro - Estética & Beleza</title>
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="form-image">
+			<img src="/imagens/undraw_appreciation_213a.svg">
+		</div>
+
+		<div class="form">
+			<form action="cadastrarcliente.php" method="post">
+
+					<div class="form-header">
+						<div class="title">
+						<h1>Cadastre-se</h1>
+						</div>
+					</div>
+
+				<div class="input-group">
+
+					<div class="input-box">
+						<input type="text" name="nome" required>
+						<label for="nome">Nome</label>
+					</div>
+
+					<div class="input-box">
+						<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Seu email deve conter o caractere @, e ter a terminação .com" required>
+						<label for="email">E-mail</label>
+					</div>
+
+					<div class="input-box">
+						<input type="password" name="senha" pattern="(?=.*[a-z]).{8,}" title="Sua senha deve ter um mínimo de oito caracteres." required>
+						<label for="senha">Senha</label>
+					</div>
+					
+					<div class="input-box">
+						<input type="number" name="cpf" required>
+						<label for="cpf">CPF</label>
+					</div>
+				
+					<div class="input-box">
+						<input type="number" name="telefone" required>
+						<label for="telefone">Telefone</label>
+					</div>
+
+				</div>
+
+				<div class="justify-center">
+						<button>Continuar</button>
+				</div>
+
+					<br><br/>
+
+				<div class="login">
+					<p>Já tem uma conta? <a href="login.html">Faça login.</a></p>
+				</div>
+			</div>
+	</div>
+</body>

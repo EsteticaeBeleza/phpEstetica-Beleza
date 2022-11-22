@@ -1,0 +1,97 @@
+ body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: black;
+    }
+
+  
+  /* Header/Blog Title */
+  .header {
+    background: rgb(208,174,235);
+    background: linear-gradient(0deg, rgba(208,174,235,1) 0%, rgba(134,53,215,1) 100%);
+	border: none;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	padding: 20px 0;
+  }
+
+.produto{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5%;
+	width: 65%;
+}
+
+.descricao {
+	font-size: 17px;
+}
+
+.valor{
+	font-size: 40px;
+	
+}
+	
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    background: #d0aeeb;
+    color: white;
+}
+
+footer .main-content .left.box .social{ /*icons rede social*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+footer .main-content .left.box .social li{ /*icons rede social*/
+    list-style: none;
+}
+
+footer .main-content .left.box .social li a{ /*icons rede social*/
+    font-size: 1em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+footer .main-content .left.box{
+    padding: 20px 100px; /*vertical e horizontal*/
+}
+
+footer .main-content .right.box{
+  padding: 20px 0px; /*vertical e horizontal*/
+}
+.box h2{
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer .main-content .right.box .content .icon{
+  font-size: 19px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+footer .main-content .right.box .content .text{ /*coloquei só o primeiro, não tá funcionando, estava 20 0 0 0*/
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.right .content .phone{
+  margin: 10px 0px 10px 0px;
+}

@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #8635d7;
+	color: white;
+    }
+
+  
+  /* Header/Blog Title */
+  .header {
+    background: rgb(208,174,235);
+    background: linear-gradient(0deg, rgba(208,174,235,1) 0%, rgba(134,53,215,1) 100%);
+	border: none;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	padding: 20px 0;
+  }
+  
+  /* Style the topnav links */
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: #8635d7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #8635d7;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #d0aeeb;
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d0aeeb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .dropdown-content a:hover {
+    color: #8635d7;
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .deslogar{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #d0aeeb;
+    padding: 16px;
+    margin: 20px;
+    float: right;
+    color: #8635d7;
+    cursor: pointer;
+    font-size: 18px;
+      }
+  
+  .deslogar a{
+      color: #8635d7;
+      padding: 0px 8px;
+      text-decoration: none;
+  }
+  
+  .deslogar:hover{
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Safari 3-8 */
+    transform: scale(1.04); 
+  }
+
+  .desc {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+
+.quadro {
+  border: 1px;
+  box-sizing: border-box;
+  background-color: #d0aeeb;
+  color: white;
+  padding: 3px;
+}
+
+.quadro img {
+      width: 100%;
+      height: auto;
+      opacity: 1;
+      display: block;
+}
+
+.quadro2 {
+  border: 1px;
+  box-sizing: border-box;
+  background-color: #d0aeeb;
+  color: white;
+  padding: 15px;
+}
+
+.quadro2 img {
+      width: 100%;
+      height: auto;
+      opacity: 1;
+      display: block;
+}
+
+
+  .openBtn {
+	box-sizing: border-box;
+    background: #f5f5f5;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    font-size: 18px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .openBtn:hover {
+    background: #d0aeeb;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgb(134,53,215);
+    background: radial-gradient(circle, rgba(134,53,215,0.2) 0%, rgba(208,174,235,0.19649858234309348) 100%); 
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .overlay .closebtn:hover {
+    color: red;
+  }
+  
+  .overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .overlay input[type=text]:hover {
+    background: #f1f1f1;
+  }
+  
+  .overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background: #bbb;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #ffffff;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .responsive {
+    width: 100%;
+    padding: 20px;
+    border: 1px;
+    box-sizing: border-box;
+    background-color: #d0aeeb;
+    color: white;
+    padding: 10px;
+  }
+  
+  .responsive2 {
+  padding: 20px;
+  width: 70%;
+  height: 55%;
+  display: inline-block;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #8635d7;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgba(221, 221, 221, 0.801);
+    margin-top: 20px;
+  }
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    background: #d0aeeb;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+footer .main-content .left.box .social{ /*icons rede social*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+footer .main-content .left.box .social li{ /*icons rede social*/
+    list-style: none;
+}
+
+footer .main-content .left.box .social li a{ /*icons rede social*/
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.692);
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+footer .main-content .left.box{
+    padding: 20px 100px; /*vertical e horizontal*/
+}
+
+footer .main-content .right.box{
+  padding: 20px 0px; /*vertical e horizontal*/
+}
+.box h2{
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer .main-content .right.box .content .icon{
+  font-size: 19px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+footer .main-content .right.box .content .text{ /*coloquei só o primeiro, não tá funcionando, estava 20 0 0 0*/
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.right .content .phone{
+  margin: 10px 0px 10px 0px;
+}

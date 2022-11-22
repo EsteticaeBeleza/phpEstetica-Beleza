@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color:#ffffffd0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8635d7;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 8px 8px 20px rgba(74, 31, 117, 0.7);
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff98;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 40rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .form .form-header .title{
+font-size: 20px;
+margin-right: 150px;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 0.3rem;
+    background-color: #ffffffe1;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.container .form .input-group .input-box input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #ffffffe1;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
+}
+
+.container .form .input-group .input-box {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.container .form .input-group .input-box input:focus + label,
+.container .form .input-group .input-box input:valid + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #ffffffe1;
+}
+
+.container .form .input-group .input-box input:focus {
+    border-bottom: 2px solid #432166;
+
+}
+
+.container .form .input-group .input-box label {
+    color: #ffffffe1;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.container .form .input-group .input-box input:focus + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #432166;
+}
+
+.container .form button {
+    width: 100%;
+    margin-top: 20px;
+    border-color: #ffffffe1;
+    color: #ffffffe1;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12pt;
+    outline: none;
+    transition: all .5s ease-out;
+}
+
+.container .form button:hover {
+    background-color: #ffffffb0;
+    color: #432166;
+}
+
+.container .form .justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.container .form .login {
+    margin-left: 34%;
+    color: #ffffffe1;
+    font-size: 14pt;
+}
+
+.container .form .login a {
+    font-weight: bold;
+    color:#432166;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.container .form .login a:hover {
+    color: #ffffffe1;
+    
+}
+
+

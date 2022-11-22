@@ -1,0 +1,17 @@
+#slider{
+    position: relative;
+    height: 40vw;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1000ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}

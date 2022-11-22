@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'EB Garamond', serif;
+    } 
+
+.quadro {
+  border: 1px;
+  box-sizing: border-box;
+  background-color: #d0aeeb;
+  color: white;
+  padding: 10px;
+}
+
+.quadro:hover {
+      transform: scale(0.9);
+}
+
+.quadro img {
+      width: 100%;
+      height: auto;
+      opacity: 1;
+      display: block;
+}
+
+.quadro{
+    width: 600;
+    height: 400;
+}
+
+.responsive {
+  padding: 45px;
+  width: 20%;
+  display: inline-block;
+}
+
+  .center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .pagination a {
+    color: #000;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 2px solid black;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #d0aeeb;
+    color: white;
+    border: 2px solid black;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #d0aeeb;}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    background: #d0aeeb;
+    color: white;
+}
+
+footer .main-content .left.box .social{ /*icons rede social*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+footer .main-content .left.box .social li{ /*icons rede social*/
+    list-style: none;
+}
+
+footer .main-content .left.box .social li a{ /*icons rede social*/
+    font-size: 1em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+footer .main-content .left.box{
+    padding: 20px 100px; /*vertical e horizontal*/
+}
+
+footer .main-content .right.box{
+  padding: 20px 0px; /*vertical e horizontal*/
+}
+.box h2{
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer .main-content .right.box .content .icon{
+  font-size: 19px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+footer .main-content .right.box .content .text{ /*coloquei só o primeiro, não tá funcionando, estava 20 0 0 0*/
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.right .content .phone{
+  margin: 10px 0px 10px 0px;
+}
