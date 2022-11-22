@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/estilocadastro.css">
+	<link rel="icon" type="image/x-icon" href="/imagens/favicon.png">
+
+	<title>Cadastrar Serviço - Estética & Beleza</title>
+	
+</head>
+<body>
+	<div class="telalog">
+	    
+	    <center>
+	<h1>Cadastro dos Procedimentos</h1>
+	    </center>
+	
+	<form action="cadastrarservico.php" method="post" onsubmit="return validar()">
+
+    <label for="categoria">Categoria do Procedimento:</label> <br>
+
+    <select name="categoria" id="categoria" require>
+          <option value="cabelo">Cabelo</option>
+          <option value="maquiagem">Maquiagem</option>
+          <option value="unhas">Unhas</option>
+          <option value="sobrancelhas">Sobrancelhas</option>
+       </select>
+
+        <br><br/>
+	    
+	<label for="procedimento">Nome do Procedimento:</label>
+	<input type="text" name="procedimento" placeholder="Digite o nome do procedimento..." required>
+		<br><br/>
+	
+	<label for="tempo">Tempo:</label>
+    <input type="time" name="tempo" required>
+		<br><br/>
+		
+	<label for="valor">Valor: </label>
+	<input type="number" name="valor" placeholder="Insira o valor do serviço..." required>
+		<br><br/>
+	
+	<button> Enviar </button>
+	
+	<br><br/>
+</body>
+</html>

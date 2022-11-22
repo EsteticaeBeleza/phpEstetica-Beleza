@@ -1,0 +1,120 @@
+ -  - 08/08/2022 - 09:52:54
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='' and validador=84512539 - 11/08/2022 - 09:08:13
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='' and validador=84512539 - 11/08/2022 - 09:10:33
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='' and validador=76554408 - 11/08/2022 - 09:11:03
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='' and validador=76554408 - 11/08/2022 - 09:11:54
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='testetestando22216@gmail.com' and validador=76554408 - 11/08/2022 - 09:14:07
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='testetestando22216@gmail.com' and validador=83296093 - 11/08/2022 - 11:19:18
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='testetestando22216@gmail.com' and validador=19603213 - 11/08/2022 - 16:52:41
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='salao.estetica.beleza10@gmail.com' and validador=36400766 - 18/08/2022 - 08:29:05
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='adm@adm.com' and validador=83081773 - 21/08/2022 - 18:10:57
+A - DELETE FROM agendamento WHERE id_agendamento = 8 - 01/09/2022 - 10:09:33
+A - DELETE FROM agendamento WHERE id_agendamento = 6 - 02/09/2022 - 06:58:52
+A - DELETE FROM agendamento WHERE id_agendamento = 10 - 02/09/2022 - 07:54:00
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 15 - 04/09/2022 - 16:00:49
+ - UPDATE cliente SET status='inativo' WHERE id_cliente=74 - 04/09/2022 - 22:07:16
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=74 - 04/09/2022 - 22:07:24
+ - UPDATE cliente SET status='inativo' WHERE id_cliente=74 - 04/09/2022 - 22:09:00
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=74 - 04/09/2022 - 22:09:02
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=77 - 04/09/2022 - 22:09:11
+ - UPDATE cliente SET status='inativo' WHERE id_cliente=77 - 04/09/2022 - 22:09:23
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=77 - 04/09/2022 - 22:09:33
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=76 - 04/09/2022 - 22:45:07
+ - UPDATE cliente SET status='inativo' WHERE id_cliente=76 - 04/09/2022 - 22:45:18
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=76 - 04/09/2022 - 22:45:26
+ - UPDATE cliente SET status='inativo' WHERE id_cliente=77 - 04/09/2022 - 23:18:44
+ - UPDATE cliente SET status='ativo' WHERE id_cliente=77 - 04/09/2022 - 23:18:49
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=72 - 04/09/2022 - 23:55:52
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=72 - 04/09/2022 - 23:55:56
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=72 - 04/09/2022 - 23:55:59
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=72 - 04/09/2022 - 23:56:02
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=72 - 04/09/2022 - 23:56:05
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=73 - 04/09/2022 - 23:56:07
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=73 - 04/09/2022 - 23:56:09
+Adm  - UPDATE cliente SET nome='Fabiana', email='fabi@gmail.com',cpf='2054158963',telefone='2147483647', acesso='comum' WHERE id_cliente=72 - 05/09/2022 - 00:16:18
+Adm  - UPDATE cliente SET nome='editado', email='editado@aaa.com',cpf='2147483647',telefone='43526661', acesso='admin' WHERE id_cliente=74 - 05/09/2022 - 00:17:18
+Adm  - UPDATE cliente SET nome='Fabi', email='fabi@gmail.com',cpf='2054158963',telefone='2147483647', acesso='comum' WHERE id_cliente=72 - 05/09/2022 - 00:17:52
+Adm  - UPDATE produto SET nome_produto='Condicionador Acelera o Crescimento ', estoque='',descricao='200ml',valor='30' WHERE id_produto=1 - 05/09/2022 - 01:09:53
+Adm  - UPDATE produto SET nome_produto='Condicionador Acelera o Crescimento ', estoque='',descricao='200ml',valor='30' WHERE id_produto=1 - 05/09/2022 - 01:19:55
+Adm  - UPDATE produto SET nome_produto='Condicionador Acelera o Crescimento ', estoque='',descricao='200ml',valor='40' WHERE id_produto=1 - 05/09/2022 - 01:20:05
+Adm  - UPDATE produto SET nome_produto='Condicionador Acelera o Crescimento ', estoque='',descricao='250ml',valor='40' WHERE id_produto=1 - 05/09/2022 - 01:20:13
+Adm  - UPDATE produto SET nome_produto='Condicionador Acelera o Crescimento ', estoque='',descricao='250ml',valor='40' WHERE id_produto=1 - 05/09/2022 - 01:20:20
+Adm  - UPDATE produto SET nome_produto='bla bla bla', estoque='',descricao='dew',valor='50' WHERE id_produto=2 - 05/09/2022 - 01:21:59
+Adm  - UPDATE produto SET nome_produto='Condicionador Acelera o Crescimento ', estoque='',descricao='250ml',valor='40' WHERE id_produto=1 - 05/09/2022 - 01:22:10
+Adm  - UPDATE cliente SET nome='Estetica & Beleza', email='salao.estetica.beleza10@gmail.com',cpf='2147483647',telefone='2147483647', acesso='comum' WHERE id_cliente=1 - 05/09/2022 - 01:25:46
+Adm  - UPDATE cliente SET nome='Estetica & Beleza', email='salao.estetica.beleza10@gmail.com',cpf='2147483647',telefone='2147483647', acesso='admin' WHERE id_cliente=1 - 05/09/2022 - 01:25:52
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=1 - 05/09/2022 - 01:25:54
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=1 - 05/09/2022 - 01:25:56
+Adm  - UPDATE produto SET nome_produto='yj', estoque='',descricao='liyi',valor='76567' WHERE id_produto=3 - 05/09/2022 - 01:33:53
+Adm  - UPDATE produto SET nome_produto='yj', estoque='',descricao='uyj',valor='76567' WHERE id_produto=3 - 05/09/2022 - 01:34:00
+Adm  - DELETE FROM procedimento WHERE id_procedimento = 11 - 05/09/2022 - 02:25:20
+Adm  - DELETE FROM procedimento WHERE id_procedimento = 10 - 05/09/2022 - 02:25:37
+Adm  - DELETE FROM funcionario WHERE id_f=10 - 05/09/2022 - 02:42:26
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=1 - 05/09/2022 - 09:59:40
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=1 - 05/09/2022 - 09:59:42
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=71 - 05/09/2022 - 09:59:44
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=71 - 05/09/2022 - 09:59:45
+ - UPDATE funcionario SET nome_f='Rochelle', email_f='orrr@rrr.com',telefone_f='254646456',funcao_f='cabeleleira',horario_f='08:00:00' WHERE id_f=1 - 05/09/2022 - 10:20:13
+Adm  - UPDATE procedimento SET id_categoria='1', nome_procedimento='Hidratacao profunda',tempo_procedimento='00:30:00',valor_procedimento='60' WHERE id_procedimento=9 - 05/09/2022 - 10:21:41
+Adm  - UPDATE funcionario SET nome_f='Rochelle', email_f='ror@rrr.com',telefone_f='254646456',funcao_f='cabeleleira',horario_f='08:00:00' WHERE id_f=1 - 05/09/2022 - 10:22:10
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 17 - 05/09/2022 - 12:36:11
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 18 - 05/09/2022 - 12:39:17
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 19 - 05/09/2022 - 12:40:44
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 20 - 05/09/2022 - 12:41:19
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 21 - 05/09/2022 - 12:43:51
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 22 - 05/09/2022 - 12:44:37
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 23 - 05/09/2022 - 13:01:15
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 24 - 05/09/2022 - 13:19:46
+Adm  - DELETE FROM categorias WHERE id_categoria=5 - 06/09/2022 - 18:13:57
+Adm  - DELETE FROM categorias WHERE id_categoria=6 - 06/09/2022 - 18:19:58
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=1 - 08/09/2022 - 02:23:09
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=1 - 08/09/2022 - 02:23:11
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 27 - 08/09/2022 - 08:26:41
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=1 - 08/09/2022 - 08:30:45
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=1 - 08/09/2022 - 08:31:35
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=1 - 08/09/2022 - 08:32:10
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=1 - 08/09/2022 - 08:32:14
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 26 - 12/09/2022 - 10:12:03
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 28 - 19/09/2022 - 13:57:06
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 30 - 19/09/2022 - 13:57:07
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 31 - 19/09/2022 - 13:57:08
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 16 - 19/09/2022 - 13:57:09
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 32 - 19/09/2022 - 13:57:10
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 35 - 29/09/2022 - 08:04:48
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 36 - 29/09/2022 - 09:04:36
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 37 - 05/10/2022 - 14:09:21
+ -  - 07/10/2022 - 08:47:06
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 34 - 13/10/2022 - 08:28:12
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 25 - 13/10/2022 - 08:31:05
+Adm  - DELETE FROM agendamento WHERE id_agendamento = 29 - 13/10/2022 - 08:31:08
+Adm  - DELETE FROM categorias WHERE id_categoria=7 - 13/10/2022 - 08:49:52
+Adm  - DELETE FROM categorias WHERE id_categoria=8 - 17/10/2022 - 19:57:29
+Adm  - UPDATE cliente SET nome='Lana Braga', email='alana@fbwj.com',cpf='2147483647',telefone='2147483647', acesso='comum' WHERE id_cliente=76 - 17/10/2022 - 20:05:53
+Adm  - UPDATE cliente SET nome='Lana Braga', email='alana@teste.com',cpf='2147483647',telefone='2147483647', acesso='comum' WHERE id_cliente=76 - 17/10/2022 - 20:06:07
+Adm  - UPDATE cliente SET nome='Lana Braga', email='alana@teste.com',cpf='3352685452',telefone='2147483647', acesso='comum' WHERE id_cliente=76 - 17/10/2022 - 20:06:16
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=76 - 17/10/2022 - 20:06:20
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=73 - 17/10/2022 - 20:06:22
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=73 - 17/10/2022 - 20:06:23
+Adm  - UPDATE cliente SET status='ativo' WHERE id_cliente=76 - 17/10/2022 - 20:06:25
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='grdsg@gfm.com' and validador=28485343 - 17/10/2022 - 21:39:26
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 46 - 18/10/2022 - 08:11:09
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 45 - 18/10/2022 - 08:11:11
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 40 - 18/10/2022 - 08:11:13
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 39 - 18/10/2022 - 08:11:15
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 44 - 18/10/2022 - 08:11:16
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='dyllanlima17@gmail.com' and validador=15443661 - 18/10/2022 - 09:13:45
+Alana Braga - DELETE FROM agendamento WHERE id_agendamento = 48 - 18/10/2022 - 10:49:00
+Adm  - UPDATE cliente SET status='inativo' WHERE id_cliente=76 - 18/10/2022 - 10:53:05
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='dyllanlima17@gmail.com' and validador=15443661 - 18/10/2022 - 18:21:04
+ - UPDATE cliente SET status='ativo' WHERE status='aguardando' and email='dyllanlima17@gmail.com' and validador=15443661 - 19/10/2022 - 18:02:22
+Alana Braga - UPDATE cliente SET nome='Alana Henriques', email='alana.h.braga@gmail.com',cpf='2147483647',telefone='990648526', acesso='comum' WHERE id_cliente=71 - 26/10/2022 - 08:10:49
+aaaaaaaaaa - UPDATE cliente SET nome='aaaaaaaaaa5', email='aaa@aaa.com',cpf='2147483647',telefone='2147483647', acesso='comum' WHERE id_cliente=78 - 26/10/2022 - 08:15:43
+aaaaaaaaaa - UPDATE cliente SET nome='aaaaaaaaaa', email='aaa@aaa.com', senha='a',cpf='2147483647',telefone='2147483647' WHERE id_cliente=78 - 26/10/2022 - 08:24:44
+aaaaaaaaaa - UPDATE cliente SET nome='aaaaaaaaaa', email='aaa@aaa.com', senha='a',cpf='2147483647',telefone='2147483647' WHERE id_cliente=78 - 26/10/2022 - 09:01:24
+Alana Henriques - DELETE FROM agendamento WHERE id_agendamento = 42 - 01/11/2022 - 20:24:57
+aaaaaaaaaa - UPDATE cliente SET nome='aaaaaaaaaa', email='aaa@aaa.com', senha='a',cpf='8990',telefone='2435' WHERE id_cliente=78 - 16/11/2022 - 07:15:22
+Alana Henriques - UPDATE cliente SET nome='Alana Braga', email='alana.h.braga@gmail.com', senha='$2y$10$UU0QmvLCDujAdpjSwUOUT.Q',cpf='2147483647',telefone='21990648526' WHERE id_cliente=71 - 21/11/2022 - 06:55:39
+Alana Henriques - UPDATE cliente SET nome='Alana Braga', email='alana.h.braga@gmail.com', senha='$2y$10$UU0QmvLCDujAdpjSwUOUT.Q',cpf='2147483647',telefone='2147483647' WHERE id_cliente=71 - 21/11/2022 - 06:55:48
+Alana Henriques - UPDATE cliente SET nome='Alana Braga', email='alana.h.braga@gmail.com', senha='$2y$10$UU0QmvLCDujAdpjSwUOUT.Q',cpf='2147483647',telefone='2147483647' WHERE id_cliente=71 - 21/11/2022 - 06:56:09
+aaaaaaaaaa - UPDATE cliente SET nome='au', email='aaa@aaa.com', senha='a',cpf='8990',telefone='2435' WHERE id_cliente=78 - 21/11/2022 - 06:58:02
+aaaaaaaaaa - UPDATE cliente SET nome='au', email='aaa@aaa.com', senha='a',cpf='8990',telefone='2435' WHERE id_cliente=78 - 21/11/2022 - 06:59:02
